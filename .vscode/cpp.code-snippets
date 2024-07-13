@@ -1,0 +1,22 @@
+{
+  "input n": {
+    "prefix": "input one",
+    "body": ["int n;", "cin >> n;"]
+  },
+  "input n m": {
+    "prefix": "input two",
+    "body": ["int n, m;", "cin >> n >> m;"]
+  },
+  "vector one": {
+    "prefix": "vec one",
+    "body": ["vector<int> A(${1:n});"]
+  },
+  "vector two": {
+    "prefix": "vec two",
+    "body": ["vector<vector<int>> A(${1:n}, vector<int>(${2:n});"]
+  },
+  "vector resize": {
+    "prefix": "vec re",
+    "body": ["${1:A}.resize(${2:n});"]
+  }
+}
