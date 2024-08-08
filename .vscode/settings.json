@@ -14,9 +14,10 @@
   "C_Cpp.default.cStandard": "c17",
   "code-runner.executorMap": {
     // skipped
-    "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-    // skipped
+    "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "java": "cd $dir && javac Main.java && java Main"
   },
+  "code-runner.runInTerminal": true,
   "C_Cpp.default.includePath": [
     "${workspaceFolder}/**",
     "/opt/homebrew/include/**",
